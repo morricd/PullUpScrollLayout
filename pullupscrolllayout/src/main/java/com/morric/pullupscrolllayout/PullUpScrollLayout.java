@@ -84,6 +84,7 @@ public class PullUpScrollLayout extends FrameLayout {
             new AbsListView.OnScrollListener() {
                 @Override
                 public void onScrollStateChanged(AbsListView view, int scrollState) {
+
                     updateListViewScrollState(view);
                 }
 
